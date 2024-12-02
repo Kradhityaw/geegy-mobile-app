@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/baseline_360_24"
+        app:title="Appointment Details"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appointment Date:"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pattient Information"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Information"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_nameDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_specDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problems"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_problems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symptoms"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_symptoms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actions"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/detail_Actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-29-2932 10:28"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teeth Photo"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        
+        <ImageView
+            android:id="@+id/detail_photo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+</LinearLayout>

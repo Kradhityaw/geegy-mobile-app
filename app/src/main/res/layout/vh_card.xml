@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        app:cardElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="17dp"
+                    android:id="@+id/card_pasien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jiloiane"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/card_dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sfsdfhsfhudf"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="15dp"/>
+                
+                <TextView
+                    android:textSize="12dp"
+                    android:id="@+id/card_problem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:textSize="12dp"
+                    android:id="@+id/card_cavity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textAlignment="textEnd"
+                    android:layout_weight="10"
+                    android:textSize="12dp"
+                    android:id="@+id/card_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Problem"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_gravity="end"
+                    android:id="@+id/btn_cancel"
+                    android:gravity="center"
+                    android:enabled="false"
+                    android:backgroundTint="@color/light_red"
+                    android:textSize="10dp"
+                    android:textColor="@color/red"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:text="Canceled"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
